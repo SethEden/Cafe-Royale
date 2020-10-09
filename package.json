@@ -1,0 +1,21 @@
+{
+  "name": "cafe-royale",
+  "version": "1.0.0",
+  "description": "A modern automation framework",
+  "main": "src/Application/Cafe-Royale-Runner/application.js",
+  "scripts": {
+    "vers": "standard-version -m \"chore(release) version %s \"",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethEden/Cafe-Royale.git"
+  },
+  "author": "Seth Hollingsead",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jsdoc": "^3.6.6",
+    "standard-version": "^9.0.0"
+  }
+}
