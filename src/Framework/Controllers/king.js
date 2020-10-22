@@ -37,7 +37,7 @@ function processRootPath(systemRootPath) {
   let rules = {};
   rules[0] = s.cparseSystemRootPath;
   ruleBroker.bootStrapBusinessRules();
-  barronCommander.bootStrapCommands();
+  lordCommander.bootStrapCommands();
   let rootPath = ruleBroker.processRules(systemRootPath, '', rules);
   return rootPath;
 };
